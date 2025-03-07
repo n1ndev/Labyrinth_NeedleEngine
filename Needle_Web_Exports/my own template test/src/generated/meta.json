@@ -1,0 +1,13 @@
+{
+  "gzip": false,
+  "generator": "Unity 2022.3.10f1, Needle Engine Integration @3.25.5",
+  "allowHotReload": true,
+  "facebookInstantGames": null,
+  "useRapier": true,
+  "license": "pro",
+  "needleEditor": null,
+  "sceneName": "My own template test",
+  "meta": null,
+  "absolutePath": "https://localhost:3000",
+  "deployOnly": false
+}

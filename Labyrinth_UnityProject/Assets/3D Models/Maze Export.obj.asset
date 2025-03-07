@@ -1,0 +1,676 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8913176747957368983
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_DJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: -7755098160759743103, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_DJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-8116176286133169924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_Both_Caps
+  m_EditorClassIdentifier: 
+  asset: {fileID: 4928472995141537479, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_Both_Caps
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-8024090568772474329
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_LF_DJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 5677109200530324565, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_LF_DJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-7531307720676788078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier
+  m_EditorClassIdentifier: 
+  asset: {fileID: 2708110747375742574, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-7249091052580786683
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Barrier_BS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: -6276246849244895657, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Barrier_BS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-6920008059864532923
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_RJ_No_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: -4225430364792885749, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_RJ_No_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-6326832636984540854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_to_Outer_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: -8115851637673389870, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_to_Outer_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-6191057787444879152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_Right_End_Cap_J
+  m_EditorClassIdentifier: 
+  asset: {fileID: -4631361401768536151, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_Right_End_Cap_J
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-5385593485143532557
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_RS_DJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 4320043469989478559, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_RS_DJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-5025706292830812842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Wall_(1)
+  m_EditorClassIdentifier: 
+  asset: {fileID: -9048019369653853500, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Wall_(1)
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-4887848411107875358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_LJ_No_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: 8839572402436016620, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_LJ_No_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-4032544540563845533
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Barrier
+  m_EditorClassIdentifier: 
+  asset: {fileID: -4413461287840142388, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Barrier
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-3857539985345816111
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_BS_DJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 62896371188017936, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_BS_DJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-2392455631933672372
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_RS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: -6254503088316680830, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_RS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-1528831515846708049
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_LS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 6852053750435338049, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_LS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-1231369576780980297
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: DF
+  m_EditorClassIdentifier: 
+  asset: {fileID: 1467724560788259467, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: DF
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-1216153326379854195
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Inner_Wall_RS_J
+  m_EditorClassIdentifier: 
+  asset: {fileID: 3374606254253175058, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Inner_Wall_RS_J
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-347978671107762332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Barrier_No_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: -4021211103544272366, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Barrier_No_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &-244277359889697051
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Barrier_RS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 5709547153113753846, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Barrier_RS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 813be320c76046cfaad2d2d04519c651, type: 3}
+  m_Name: Maze Export.obj
+  m_EditorClassIdentifier: 
+  asset: {fileID: 919132149155446097, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  assetSettings:
+  - {fileID: -5385593485143532557}
+  - {fileID: -4032544540563845533}
+  - {fileID: 8487824820663610256}
+  - {fileID: -5025706292830812842}
+  - {fileID: 2343326491595725332}
+  - {fileID: -2392455631933672372}
+  - {fileID: 2258594868222416190}
+  - {fileID: -3857539985345816111}
+  - {fileID: -7249091052580786683}
+  - {fileID: 4165383263212423903}
+  - {fileID: 2279012482351542420}
+  - {fileID: 7271339902748601114}
+  - {fileID: -1528831515846708049}
+  - {fileID: -347978671107762332}
+  - {fileID: -8024090568772474329}
+  - {fileID: 8179396253977122326}
+  - {fileID: -1216153326379854195}
+  - {fileID: -6326832636984540854}
+  - {fileID: -244277359889697051}
+  - {fileID: 3630259970688687800}
+  - {fileID: -7531307720676788078}
+  - {fileID: 7184785886444000926}
+  - {fileID: 5866827026582067276}
+  - {fileID: -6920008059864532923}
+  - {fileID: -4887848411107875358}
+  - {fileID: -8913176747957368983}
+  - {fileID: -6191057787444879152}
+  - {fileID: 428375364395799935}
+  - {fileID: -8116176286133169924}
+  - {fileID: 4838470258336439846}
+  - {fileID: 3876765011999294814}
+  - {fileID: -1231369576780980297}
+  - {fileID: 8999593136574141424}
+--- !u!114 &428375364395799935
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_Left_End_Cap_J
+  m_EditorClassIdentifier: 
+  asset: {fileID: -7453397513946331861, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_Left_End_Cap_J
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &2258594868222416190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Inner_Wall_to_Middle_Barrier_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: -7725362715744778286, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Inner_Wall_to_Middle_Barrier_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &2279012482351542420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Base
+  m_EditorClassIdentifier: 
+  asset: {fileID: 3909233067320746374, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Base
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &2343326491595725332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Inner_Wall
+  m_EditorClassIdentifier: 
+  asset: {fileID: 1653459989796565051, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Inner_Wall
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &3630259970688687800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Base_Hole_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: -7946370409156710589, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Base_Hole_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &3876765011999294814
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_No_Junction_Right_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: 5457722084512006831, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_No_Junction_Right_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &4165383263212423903
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Inner_Wall__LS_J
+  m_EditorClassIdentifier: 
+  asset: {fileID: -189778183323696418, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Inner_Wall__LS_J
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &4838470258336439846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_NJ_Left_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: 6184593613259640456, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_NJ_Left_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &5866827026582067276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: MW_Piece_No_Caps
+  m_EditorClassIdentifier: 
+  asset: {fileID: -8214947241774738598, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: MW_Piece_No_Caps
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &7184785886444000926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Inner_Wall_DS_J
+  m_EditorClassIdentifier: 
+  asset: {fileID: 821130613771072927, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Inner_Wall_DS_J
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &7271339902748601114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_No_Cap
+  m_EditorClassIdentifier: 
+  asset: {fileID: 890093440327319349, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_No_Cap
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &8179396253977122326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Middle_Barrier_BS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: 8312379933028452561, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Middle_Barrier_BS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &8487824820663610256
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: Outer_Barrier_LS_SJ
+  m_EditorClassIdentifier: 
+  asset: {fileID: -1254774429106503158, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: Outer_Barrier_LS_SJ
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
+--- !u!114 &8999593136574141424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba8ed63859b4cfcb041f10d6882ab3b, type: 3}
+  m_Name: DF_(1)
+  m_EditorClassIdentifier: 
+  asset: {fileID: 864323550912581683, guid: c0646dd992879754eadbf2fdc86d8e44, type: 3}
+  identifier: DF_(1)
+  override: 0
+  useSimplifier: 0
+  ratio: 0.5
+  error: 0.001
+  lockBorder: 0
