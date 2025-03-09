@@ -72,15 +72,15 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Needle Engine / Web Project
-Needle_Web_Exports/*node_modules/
-Needle_Web_Exports/*dist/
-Needle_Web_Exports/*src/generated/
-Needle_Web_Exports/*/assets/
-Needle_Web_Exports/*/include/draco/
-Needle_Web_Exports/*/include/ktx2/
-Needle_Web_Exports/*/include/three/
-Needle_Web_Exports/*/include/console/
-Needle_Web_Exports/*/include/three-mesh-ui-assets/
-Needle_Web_Exports/*/include/fonts/
-Needle_Web_Exports/*/stats.html
-Needle_Web_Exports/*/build.log
+Needle_Web_Exports/**/node_modules/
+Needle_Web_Exports/**/dist/
+Needle_Web_Exports/**/src/generated/
+Needle_Web_Exports/**/assets/
+Needle_Web_Exports/**/include/draco/
+Needle_Web_Exports/**/include/ktx2/
+Needle_Web_Exports/**/include/three/
+Needle_Web_Exports/**/include/console/
+Needle_Web_Exports/**/include/three-mesh-ui-assets/
+Needle_Web_Exports/**/include/fonts/
+Needle_Web_Exports/**/stats.html
+Needle_Web_Exports/**/build.log
